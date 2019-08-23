@@ -1,0 +1,24 @@
+
+<?php
+echo "<table border=2 width=30%>";
+echo "<tr>"
+echo "<td> x </td>";
+for ($i = 1; $i <= 10; $i++)
+ {
+     echo "<td>" . $i . "</td>";
+}
+
+echo "</tr>";
+for ($i = 1; $i <= 10; $i++ ) { 
+    echo "<tr>";
+    echo "<td>".$i."</td>";
+    for ( $j = 2; $j <= 10; $j++ ) {
+            echo "<td>".$i * $j."</td>";
+        }
+    echo "</tr>";
+}
+21
+echo "</table>";
+?>
+
+
